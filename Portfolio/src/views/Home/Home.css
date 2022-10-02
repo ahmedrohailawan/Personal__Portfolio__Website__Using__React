@@ -1,0 +1,131 @@
+.home{
+    height: 90vh;
+    padding: 0rem 4.5rem;
+    font-family: "Readex-Pro", sans-serif;
+}
+.home-flex{
+    display: flex;
+}
+.home p{
+    color:var(--white);   
+    font-size: 1.6rem;
+    padding-left: 0.2rem;
+}
+.home h1{
+    padding: 0.2rem 0;
+    color: var(--white);
+    font-size: 4.5rem;
+}
+.home h2{
+    color: var(--white);
+    font-size: 2.2rem;
+    padding-bottom: 40px;
+}
+.home h2 span{
+    color: var(--aqua);
+}
+.home .left-content{
+    padding: 7rem 0rem;
+    width: 50%;
+}
+.home .left-content a{
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    border: 0.15rem solid var(--aqua);
+    text-decoration: none;
+    list-style: none;
+}
+.home .left-content a:hover{
+    color: var(--black-high);
+    background: var(--aqua);
+    font-weight: bold;
+}
+.home .right-content{
+    padding: 2rem 0rem;
+    width: 50%;
+    overflow-x: hidden;
+    display: flex;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home{
+        padding: 0rem 0rem;
+        height: 80vh;
+    }
+    .home-flex{
+        display: block;
+    }
+    .home .left-content{
+        width: 100%;
+        padding-left: 2rem;
+        padding-top: 17vmax;
+    }
+    .home .right-content{
+        position: relative;
+        top: -500px;
+        right: -200px;
+        height: auto;
+    }
+  }
+@media only screen and (max-width: 870px) {
+    .home .right-content{
+        position: relative;
+        top: -400px;
+        right: -250px;
+    }
+    .home .right-content img{
+        width: 90%;
+        height: 90%;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    .home{
+        height: auto;
+    }
+    .home p{  
+        font-size: 1.2rem;
+    }
+    .home h1{
+        font-size: 3.5rem;
+    }
+    .home h2{
+        font-size: 1.7rem;
+    }
+    .home .left-content{
+        padding-top: 15rem;
+    }
+    .home .left-content a{
+        font-size: 1.2rem;
+        padding: 0.6rem 1rem;
+        border-radius: 0.2rem;
+    }
+    .home .right-content{
+        position: absolute;
+        top: 5rem;
+        right: 50px;
+    }
+    .home .right-content img{
+        width: 100%;
+        height: 100%;
+    }
+  }
+@media only screen and (max-width: 400px) {
+    .home p{  
+        font-size: 1.1rem;
+    }
+    .home h1{
+        font-size: 3.2rem;
+    }
+    .home h2{
+        font-size: 1.6rem;
+    }
+    .home .left-content a{
+        font-size: 1rem;
+        padding: 0.4rem 0.9rem;
+        border-radius: 0.2rem;
+    }
+}

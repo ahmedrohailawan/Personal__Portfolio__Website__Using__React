@@ -1,0 +1,54 @@
+
+.services .card{
+    text-align: center;
+    margin: 1rem 1rem;
+}
+.services .card .box{
+    padding: 1.5rem 1.5rem;
+    border-radius: 1rem;
+    height: 15rem;
+    background: var(--black-high);
+    cursor: pointer;
+}
+.services .card .box:hover{
+    transform: scale(1.1);
+    z-index: -7;
+}
+.services .card .box i{
+    color: var(--aqua);
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.services .card .box .heading{
+    color: var(--aqua);
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.services .card .box .text{
+    color: var(--white);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+    .services .card{
+        margin: 2rem 2rem;
+    }
+
+}
+@media only screen and (max-width: 780px) {
+    .services .card .box{
+        height: auto;
+    }
+    .services .card{
+        margin: 1rem 1.5rem;
+    }
+    .services .card .box:hover{
+        transform: scale(1.03);
+        z-index: -7;
+    }
+
+}

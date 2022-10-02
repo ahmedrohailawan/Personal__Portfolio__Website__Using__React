@@ -1,0 +1,48 @@
+.project{
+    padding: 3rem 3rem;
+    font-family: "Readex-Pro", sans-serif;
+    background-color: transparent;
+    height: auto;
+}
+.project h1{
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.project .text{
+    color: var(--white);
+    font-size: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+    line-height: 1.5rem;
+    text-align:justify;
+}
+
+
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid var(--aqua) !important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: var(--aqua) !important;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .project{
+        padding: 3rem 1rem;
+    }
+}

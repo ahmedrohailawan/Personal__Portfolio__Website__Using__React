@@ -1,0 +1,44 @@
+.contact .boxes .box{
+    width: 30%;
+    height: 30%;
+    padding: 3rem 1rem;
+    margin: 2rem 3rem;
+    background: var(--black-high);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.contact .boxes .box .center i{
+    font-weight: bold;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    color: var(--aqua);
+}
+.contact .boxes .box .center i:hover{
+    transform: scale(1.1);
+}
+.contact .boxes .box .center p{
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.boxes .box .center{
+    display: flex;
+    margin: auto;
+}
+
+@media only screen and (max-width: 780px) {
+    .contact .boxes .box{
+        width: 70%;
+        height: 70%;
+        margin: 3rem auto;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .contact .boxes .box{
+        width: 100%;
+        height: 100%;
+        margin: 3rem auto;
+    }
+
+}
